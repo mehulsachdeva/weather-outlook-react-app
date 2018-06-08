@@ -14,7 +14,7 @@ class App extends Component {
       key: '',
       place: '',
       date: '' ,
-      text: 'Hello Guys! Welcome to Weather Outlook',
+      text: 'Welcome! Welcome to Weather Outlook',
       mininF: '',
       maxinF: '',
       mininC: '',
@@ -26,6 +26,7 @@ class App extends Component {
     }
   }
 
+  // APIs used are given below
   // current-key: 1A5EWQnGyHTPapyrBsgsO9RwN4uksc3I
   // current-location-API: http://dataservice.accuweather.com/forecasts/v1/daily/1day/202446?apikey=1A5EWQnGyHTPapyrBsgsO9RwN4uksc3I
   // To get image use : https://developer.accuweather.com/sites/default/files/04-s.png
